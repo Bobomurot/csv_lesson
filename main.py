@@ -1,6 +1,6 @@
-def get_country_column(file_name):
+def get_country_column(file_name: str)-> list:
     """
-    This function takes a filename as input and returns a list of countries
+    Bu funksiya fayl nomini qabul qiladi. Ushbu fayldan mamlakatlar(country) ning ro'yxatini chiqaring.
     Args:
         file_name: string
     Returns:
